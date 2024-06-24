@@ -1,0 +1,42 @@
+
+.experience{
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.vertical-timeline-element-content{
+  border: 2px dotted #1E88E5;
+  background-color:transparent;
+  box-shadow: unset !important;
+  color: #fff;;
+  background-color: transparent  !important;
+
+  .vertical-timeline-element-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  ul{
+    list-style: disc;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+}
+
+.vertical-timeline::before{
+  width: 1px !important;
+  background: #80858929 !important;
+  height: 115% !important;
+}
+
+.vertical-timeline-element-content-arrow{
+  display: none;
+}
+
+.vertical-timeline-element-icon{
+      box-shadow: 0 0 0 1px #ffffff08, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05) !important;
+}
